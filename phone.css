@@ -1,0 +1,100 @@
+.navlist {
+  flex-direction: column;
+  text-align: center;
+}
+.navbar {
+  flex-direction: column;
+  height: 447px;
+  transition: all 0.7s ease-out;
+  /* height:472px; */
+  /* height: 10px; */
+}
+.rightnav {
+  /* background-color: aqua; */
+  width: 30%;
+  flex-direction: column;
+  padding-top: 0px;
+  padding-right: 0px;
+  text-align: center;
+  align-items: center;
+}
+.rightnav input {
+  width: 75px;
+  height: 22px;
+  text-align: center;
+  font-family: "Baloo Bhaina 2", cursive;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 2px solid black;
+  border-radius: 10px;
+}
+.rightnav button {
+  text-align: center;
+  font-size: smaller;
+}
+
+.first {
+  margin: 5px;
+  width: 80%;
+  flex-direction: column;
+}
+.contentbox img {
+  width: 264px;
+  height: 166px;
+  border: 3px solid rgb(34, 34, 34);
+  border-radius: 5px;
+  margin: 10px;
+}
+.tb,
+.ts {
+  text-align: justify;
+  margin: 0;
+}
+.ts {
+  font-size: smaller;
+}
+.tb {
+  font-size: 20px;
+  text-align: center;
+}
+.contact input {
+  width: 220px;
+}
+.contactus {
+  font-size: 18px;
+}
+.foot {
+  text-align: center;
+  color: white;
+  padding: 0px;
+}
+.boxmain {
+  height: 87%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  /* line-height: 1px; */
+}
+.secondhalf img {
+  width: 100%;
+  height: 100%;
+}
+.btn button {
+  margin: 2px;
+}
+.firstsection {
+  height: 700px;
+}
+.bur {
+  display: block;
+}
+.hnav {
+  height: 72px;
+}
+.visi {
+  opacity: 0;
+}

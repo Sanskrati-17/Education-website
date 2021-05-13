@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+.navbar {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  cursor: pointer;
+}
+.navlist {
+  position: sticky;
+  width: 90%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlist ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlist li {
+  width: 70%;
+  list-style: none;
+  padding: 10px 20px;
+}
+.navlist li a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+.navlist li a:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: white;
+  border-radius: 3px;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  margin: 0px;
+}
+.rightnav {
+  /* background-color: aqua; */
+  width: 30%;
+  text-align: right;
+}
+.rightnav button {
+  color: white;
+  font-size: 15px;
+  font-family: "Baloo Bhaina 2";
+  background: none;
+  border: 2px solid white;
+  border-radius: 14px;
+  padding-right: 14px;
+  padding-left: 14px;
+  margin: 4px;
+}
+.logo {
+  /* border: 2px solid black; */
+  display: flexbox;
+  justify-content: left;
+  align-items: left;
+  width: 40%;
+  /* flex-shrink: 0; */
+}
+.logo img {
+  padding: 5px;
+  margin-left: 20px;
+  width: 60%;
+}
+.bg {
+  background: rgba(0, 0, 0, 0.8) url("bg10.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.bg1 {
+  background: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+.rightnav {
+  padding-top: 20px;
+  padding-right: 15px;
+}
+.rightnav input {
+  padding: 1px;
+  text-align: center;
+  font-family: "Baloo Bhaina 2", cursive;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 2px solid black;
+  padding-right: 2px;
+  border-radius: 10px;
+}
+
+.rightnav button:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: black;
+}
+.boxmain {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  max-width: 80%;
+  margin: auto;
+}
+.firstsection {
+  height: 533px;
+}
+.firsthalf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.secondhalf {
+  width: 40%;
+}
+.secondhalf img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  color: white;
+  font-size: 15px;
+  font-family: "Baloo Bhaina 2";
+  background: none;
+  border: 2px solid white;
+  border-radius: 3px;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 6px;
+  margin: 8px;
+}
+.contact button {
+  color: black;
+  font-size: 15px;
+  font-family: "Baloo Bhaina 2";
+  background: none;
+  border: 2px solid black;
+  border-radius: 14px;
+  padding-right: 14px;
+  padding-left: 14px;
+  margin: 4px;
+}
+.btn button:hover {
+  transform: scale(1.01);
+  background-color: white;
+  color: black;
+}
+.contact button:hover {
+  transform: scale(1.01);
+  text-decoration: underline;
+}
+.contentbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contentbox img {
+  width: 400px;
+  height: 300px;
+  border: 5px solid rgb(34, 34, 34);
+  border-radius: 5px;
+  margin: 40px;
+}
+.contentbox img:hover {
+  border: white;
+  transform: scale(1.2);
+}
+.first {
+  margin: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second {
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.tb {
+  font-family: "Baloo Bhaina 2";
+  font-size: 30px;
+}
+.contact {
+  background: rgb(235, 235, 235);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactus {
+  font-size: 50px;
+}
+.contact input {
+  padding-left: 10px;
+  width: 700px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: white;
+  border-radius: 45px;
+}
+.foot {
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+.bur {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+}
+.line {
+  width: 30px;
+  background-color: white;
+  height: 4px;
+  margin: 3px 3px;
+}
